@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "BetterTabs",
+    "description": "Adding Tabs to your Sidebar",
+    "version": "1.0",
+    "background": {
+        "page": "background.html"
+    },
+    "permissions": ["tabs", "background", "storage"],
+    "sidebar_action": {
+        "default_icon": "media/icon.png",
+        "default_title": "BetterTabs",
+        "default_panel": "index.html"
+    }
+}
